@@ -210,10 +210,10 @@ export default function Home() {
             نقدم حلول تأمين سيارات موثوقة ومصممة خصيصًا لتلبية احتياجاتك في مصر. انعم براحة البال على الطريق مع خيارات تغطية شاملة وخدمة عملاء استثنائية.
           </p>
           <div className="space-x-4 rtl:space-x-reverse">
-            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg">
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <Link href="/#get-quote">احصل على عرض سعر مجاني الآن</Link>
             </Button>
-            <Button asChild>
+            <Button asChild variant="outline" size="lg">
               <Link href="/#insurance-plans">اكتشف خطط التأمين المتنوعة</Link>
             </Button>
           </div>
@@ -347,7 +347,7 @@ export default function Home() {
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
             قد يبدو تأمين السيارات معقدًا للوهلة الأولى، ولكنه مصمم أساسًا لحمايتك من الخسائر المالية الكبيرة التي قد تنجم عن الحوادث، السرقة، أو غيرها من الأحداث غير المتوقعة. تقدم خطط التأمين المختلفة مستويات تغطية متفاوتة، بدءًا من المسؤولية الأساسية تجاه الغير وصولاً إلى الحماية الشاملة التي تغطي الأضرار التي تلحق بمركبتك. فهم تفاصيل وثيقتك هو المفتاح لضمان حصولك على التغطية المناسبة لاحتياجاتك والشعور بالأمان التام على الطريق.
           </p>
-          <Button asChild>
+          <Button asChild variant="outline">
             <Link href="/#faq">تعرّف على المزيد في قسم الأسئلة الشائعة</Link>
           </Button>
         </div>
